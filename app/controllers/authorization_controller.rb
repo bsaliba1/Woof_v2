@@ -1,8 +1,16 @@
 class AuthorizationController < ApplicationController
-  def home
-  end
-
+  before_action :params => [:username, :password],
+         :add_flash => {
+             :error => 'Username and password required to log in'
+         },
+         :only => :sign_in
   def sign_in
-    render "success"
+    @user = User.authenticate(params[:username], params[:password])
+    if @user
+      flash[:notice] = "You're logged in"
+      redirect_to root_url
+    else
+      # sign up
+    end
   end
 end
