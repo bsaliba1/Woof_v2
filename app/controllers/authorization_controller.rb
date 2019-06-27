@@ -1,4 +1,4 @@
 class AuthorizationController < ApplicationController
-  def initial
+  def sign_in
   end
 end
