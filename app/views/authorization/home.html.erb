@@ -1,0 +1,17 @@
+<h1> Hello sign in homie </h1>
+<%= form_with scope: :user, url: :sign_in_authorization, local: true do |form| %>
+  <p>
+    <%= form.label :UserName %><br>
+    <%= form.text_field :username %>
+  </p>
+
+  <p>
+    <%= form.label :Password %><br>
+    <%= form.text_area :password %>
+  </p>
+
+  <p>
+    <%= form.submit "Sign In" %>
+  </p>
+<% end %>
+<a href= '/sign_up'>Sign Up</a>
