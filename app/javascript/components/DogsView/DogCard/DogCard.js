@@ -9,14 +9,13 @@ class DogCard extends React.Component {
         <div className="dog-picture-wrap">
           <div className = "dog-picture">
           </div>
-          <p className="dog-info-main">Bobby</p>
         </div>
         <div className="dog-info">
           <div className = "dog-info-extra">
             <p>A</p>
             <p>B</p>
             <p>C</p>
-            <button>View profile</button>
+            <button className="button">View profile</button>
           </div>
         </div>
       </div>

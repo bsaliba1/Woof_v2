@@ -4,60 +4,62 @@
 
 .dog-card{
   background-color:rgb(48, 215, 248);
-  width: 450px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  padding: 10px;
+
+  box-shadow: -3px 0 10px rgba(0,0,0,0.2);
+
   font-family: "Futura";
   text-transform: uppercase;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
   grid-gap: 10px;
   position: relative;
   margin-bottom: 10px;
+  padding-top: 50px;
 }
 
-.dog-picture-wrap{
-  position: relative;
-}
 .dog-picture{
   background-image: url("./puppy-test.jpg");
   background-size: cover;
   background-position: center 70%;
   border-radius: 100%;
   background-color: white;
-  width: 120px;
-  top:50%;
+  width: 150px;
   position: absolute;
-  top:50%;
-  transform: translate(-50%, -50%);
   left: 50%;
-  height: 120px;
+  transform: translateX(-50%);
+  height: 150px;
   border: 3px solid white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
+}
+.button{
+  border: none;
+  background-color: rgb(153, 153, 238);
+  color:white;
+  padding: 10px;
+  text-transform:uppercase;
+  border-radius: 3px;
 }
 .dog-info-main{
   width: 80px;
   height: auto;
   background-color: rgb(211, 209, 90);
-  position: absolute;
   z-index: 2;
   top:75%;
   border-radius: 8px;
   border: 3px solid white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 3px;
-  transform: translate(-50%, -50%);
   left: 50%;
   text-align: center;
   color: white;
   font-weight: bold;
 }
 .dog-info{
-  background-color: rgb(206, 230, 240);
+
+  background-color:white;
   padding-left: 20px;
-  height: 100%;
-  color: white;
-  border-radius: 5px;
+  
+  text-align: center;
+  margin-top: 65px;
+  font-size: 15px;
+  padding: 30px;
+  padding-top: 100px;
 }

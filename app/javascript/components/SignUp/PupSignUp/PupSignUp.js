@@ -14,11 +14,11 @@ class PupSignUp extends React.Component {
 	</div>
 	<div class="form">
 		<p class="input-title">Your fill name</p>
-		<input class = "form-input"type="" name="">
+		<input class = "form-input"type="" name=""/>
 		<p class="input-title">Email</p>
-		<input class = "form-input"type="email" name="">
+		<input class = "form-input"type="email" name=""/>
 		<p class="input-title">Password</p>
-		<input class = "form-input"type="password" name="">
+		<input class = "form-input"type="password" name=""/>
 		<div class="sub-form">
 			<button class="button sign-up-button">Sign up</button>
 			<button class="already-signed-up">Already signed up sign in here</button>

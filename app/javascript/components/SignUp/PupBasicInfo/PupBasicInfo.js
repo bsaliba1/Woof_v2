@@ -19,11 +19,11 @@ class PupBasicInfo extends React.Component {
 		<div class="basic-info-input">
 		<div class="form">
 			<p class="input-title">Your fill name</p>
-			<input class = "form-input"type="" name="">
+			<input class = "form-input"type="" name=""/>
 			<p class="input-title">Your fill name</p>
-			<input class = "form-input"type="" name="">
+			<input class = "form-input"type="" name=""/>
 			<p class="input-title">Your fill name</p>
-			<input class = "form-input"type="" name="">
+			<input class = "form-input"type="" name=""/>
 			<p class="input-title">Gender</p>
 			<div class="buttons-wrap">
 				<button>Male</button>

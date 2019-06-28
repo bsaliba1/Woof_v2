@@ -13,3 +13,5 @@ class UserItem extends React.Component {
 </div>);
 	}
 }
+
+export default UserItem;

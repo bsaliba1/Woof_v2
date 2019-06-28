@@ -27,7 +27,7 @@ class PupDetails extends React.Component {
 					</div>
 					<div>
 						<p class="input-title">Emergency contact</p>
-						<input type="" name="">
+						<input type="" name=""/>
 					</div>
 					<div>
 						<p class="input-title">Notes</p>

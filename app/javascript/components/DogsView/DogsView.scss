@@ -1,7 +1,15 @@
+*{
+  
+}
 .dogs-view{
-  padding: 20px;
+  padding: 80px;
+}
+
+.dogs-grid{
   display:  grid;
-  grid-template-columns: 8fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+  grid-gap: 30px;
 }
 .column-title{
   font-size: 25px;

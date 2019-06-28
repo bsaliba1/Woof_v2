@@ -2,9 +2,25 @@
 			border-radius: 100%;
 			width: 30px;
 			height: 30px;
-			background-color: red;
+      background-color: red;
+      display: inline-block;
+      vertical-align: middle;
 		}
 		.user-item{
-			display: grid;
-			grid-template-columns: 5fr 1fr;
+      width: auto;
+      height: auto;
+      padding: 5px;
+      right: 250px;
+      position: fixed;
+      top: 20px;
+
+      > p {
+        color: white;
+        display: inline-block;
+        font-family: "Avenir";
+        font-weight: bold;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding-right: 10px;
+      }
 		}
