@@ -5,12 +5,10 @@ class AuthorizationController < ApplicationController
          },
          :only => :sign_in
   def sign_in
-    @user = User.authenticate(params[:username], params[:password])
-    if @user
-      flash[:notice] = "You're logged in"
-      redirect_to root_url
-    else
-      # sign up
-    end
+    # nothing happens for now
+  end
+  def submit
+    flash[:notice] = "You got it"
+    redirect_to home_url
   end
 end

@@ -1,5 +1,5 @@
 <h1> Hello sign in homie </h1>
-<%= form_with scope: :user, url: :sign_in_authorization, local: true do |form| %>
+<%= form_with scope: :user, url: :sign_in, local: true do |form| %>
   <p>
     <%= form.label :UserName %><br>
     <%= form.text_field :username %>

@@ -10,7 +10,4 @@
 #
 
 class User < ApplicationRecord
-  def self.authenticate(username, password)
-    puts "this accesses the model"
-  end
 end
