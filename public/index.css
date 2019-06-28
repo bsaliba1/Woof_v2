@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: local('Gotham-Bold'), url (./assets/fonts/Gotham-Bold.woff) format ('woof');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: local('Gotham-Book'), url (./assets/fonts/Gotham-Book.woff) format ('woof');
+}
+
+@font-face {
+    font-family: 'GothamNarrow-Bold';
+    src: local('GothamNarrow-Bold'), url (./assets/fonts/GothamNarrow-Bold.woff) format ('woof');
+}
+
+@font-face {
+    font-family: 'GothamNarrow-Book';
+    src: local('GothamNarrow-Book'), url (./assets/fonts/GothamNarrow-Book.woff) format ('woof');
+}
+
+@font-face {
+    font-family: 'LavaStd-Hea';
+    src: local('LavaStd-Hea'), url (./assets/fonts/LavaStd-Hea.woff) format ('woof');
+}
