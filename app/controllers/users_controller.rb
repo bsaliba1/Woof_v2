@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  def authenticate
-    #let's access and manipulate shit
+  def index
+     Pet.all
   end
 end
