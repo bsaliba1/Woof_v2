@@ -1,0 +1,25 @@
+.nav-background{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("..");
+	padding-left: 50px;
+}
+
+.nav-list{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 200px;
+	background-color: red;
+}
+
+.nav-list > li{
+	color: rgb(200,200,200);
+	text-transform: uppercase;
+}
+
+.highligted-nav-element{
+	color: white;
+}
