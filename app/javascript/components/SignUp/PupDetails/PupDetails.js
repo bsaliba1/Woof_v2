@@ -39,3 +39,6 @@ class PupDetails extends React.Component {
 );
 	}
 }
+
+
+export default PupDetails;

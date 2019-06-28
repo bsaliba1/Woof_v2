@@ -41,3 +41,6 @@ class PupBasicInfo extends React.Component {
 	}
 }
 
+export default PupBasicInfo;
+
+

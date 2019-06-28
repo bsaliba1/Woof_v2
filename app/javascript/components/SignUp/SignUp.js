@@ -9,10 +9,10 @@ import PupDetails from "./PupDetails/PupDetails";
 class SignUp extends React.Component {
   render () {
     return (
-    	<div class="sign-up-wrap">
-			<div class="sign-up-container">
+    	<div className ="sign-up-wrap">
+			<div className ="sign-up-container">
 				<Nav/>
-				<div class="sign-up-process">
+				<div className ="sign-up-process">
 					<PupSignUp/>
 				</div>
 			</div>
@@ -20,3 +20,5 @@ class SignUp extends React.Component {
     	);
 	}
 }
+
+export default SignUp;

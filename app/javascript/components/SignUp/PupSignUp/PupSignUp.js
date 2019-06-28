@@ -27,3 +27,5 @@ class PupSignUp extends React.Component {
 </div>)
 	}
 }
+
+export default PupSignUp;
