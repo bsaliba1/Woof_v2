@@ -7,18 +7,18 @@ class DogsView extends React.Component {
   render () {
     return (
       <div className = "dogs-view">
-        <div>
-        <p className = "column-title">My Dogs</p>
+          <div class="title-label">
+    <p class="title">Sign up your dog now!</p>
+    <p class="title-sub">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    </p>
+  </div>
           <DogCard/>
           <DogCard/>
           <DogCard/>
-        <p className = "column-title">Dogs in Office</p>
           <DogCard/>
           <DogCard/>
           <DogCard/>
-        </div>
-        <div>
-          <SittersList/>
         </div>
       </div>
     );

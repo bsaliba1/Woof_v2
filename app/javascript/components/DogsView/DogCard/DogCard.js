@@ -16,6 +16,7 @@ class DogCard extends React.Component {
             <p>A</p>
             <p>B</p>
             <p>C</p>
+            <button>View profile</button>
           </div>
         </div>
       </div>
