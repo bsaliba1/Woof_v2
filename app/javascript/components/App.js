@@ -11,9 +11,6 @@ class App extends React.Component {
       <div className="app-wrap">
         <DogsView/>
       </div>
-        <div className="new-font">
-          HELLO QIUQUN
-        </div>
       </div>
 );
   }
