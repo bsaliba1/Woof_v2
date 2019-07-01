@@ -10,14 +10,13 @@ class SignUp extends React.Component {
   render () {
     return (
     	<div className ="sign-up-wrap">
-			<div className ="sign-up-container">
-				<Nav/>
-				<div className ="sign-up-process">
-					<PupSignUp/>
-				</div>
-			</div>
-		</div>
-    	);
+		  <div className ="sign-up-container">
+		  	<Nav/>
+		  	<div className ="sign-up-process">
+		  		<PupBasicInfo/>
+		  	</div>
+		  </div>
+		</div>);
 	}
 }
 

@@ -1,11 +1,10 @@
-	.sign-up-container{
-    
-    height: 100%;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-  }
+.sign-up-container{
+  height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+}
 
-  .sign-up-wrap{
-    position: absolute;
-    height: 100%;
-  }
+.sign-up-wrap{
+  position: absolute;
+  height: 100%;
+}
