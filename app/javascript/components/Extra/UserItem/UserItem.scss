@@ -1,26 +1,28 @@
-	.profile-pic{
-			border-radius: 100%;
-			width: 30px;
-			height: 30px;
-      background-color: red;
-      display: inline-block;
-      vertical-align: middle;
-		}
-		.user-item{
-      width: auto;
-      height: auto;
-      padding: 5px;
-      right: 250px;
-      position: fixed;
-      top: 20px;
+.profile-pic{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
 
-      > p {
-        color: white;
-        display: inline-block;
-        font-family: "Gotham-Book";
-        font-weight: bold;
-        font-size: 10px;
-        text-transform: uppercase;
-        padding-right: 10px;
-      }
-		}
+.user-item{
+  width: auto;
+  height: auto;
+  padding: 5px;
+  right: 5%;
+  position: fixed;
+  margin-bottom: 5px;
+
+  > p {
+    color: white;
+    display: inline-block;
+    font-family: "Gotham-Book";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-right: 10px;
+  }
+}
