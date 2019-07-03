@@ -9,8 +9,9 @@ body, html{
 }
 
 .app-wrap{
+  margin-top: 2%;
   position: fixed;
-  width: 65vw;
+  width: 80vw;
   min-height: 80vh;
   top: 50%;
   transform: translate(-50%, -50%);
